@@ -77,7 +77,6 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
@@ -88,7 +87,7 @@ p {
 
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    
 }
 
 .middle-content h2 {
@@ -121,10 +120,6 @@ p {
 
 .bottom-content .text-container {
     padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
 }
 
 footer {
@@ -228,4 +223,8 @@ article a {
     border: 1px solid black;
     padding: 5px;
     border-radius: 10px;
+}
+
+.text-container {
+    border-bottom: 1px dashed;
 }
